@@ -112,3 +112,11 @@ body {
     background-color: #ffffff;
     box-shadow: inset 0 0px 0 rgb(0 0 0 / 13%);
 }
+.login{
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
+.carousel-inner{
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
