@@ -1,3 +1,6 @@
+.nav-item:hover{
+    background-color:#d1ebff;
+}
 section {
     margin: auto;
     display: flex;
@@ -111,6 +114,10 @@ body {
 	color: #0c63e4;
     background-color: #ffffff;
     box-shadow: inset 0 0px 0 rgb(0 0 0 / 13%);
+}
+.scroll{
+    position: relative;
+    margin-left: 1320px;
 }
 .login{
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.1);
