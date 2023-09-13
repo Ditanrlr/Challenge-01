@@ -1,129 +1,114 @@
-.nav-item:hover{
-    background-color:#d1ebff;
+.nav-item:hover {
+  outline-style: auto;
+  outline-color: white;
 }
 section {
-    margin: auto;
-    display: flex;
-    margin-bottom: 50px;
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
 }
-
 .kolom {
-    margin-top: 80px;
-    margin-bottom: 50px;
-    font-size: 20px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  font-size: 20px;
 }
 h2 {
-    font-family: 'comic sans ms';
-    font-weight: 800;
-    font-size: 45px;
-    margin-bottom: 20px;
-    color: #364f6b;
-    width: 100%;
-    line-height: 50px;
-    text-align: center;
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #364f6b;
+  width: 100%;
+  line-height: 50px;
+  text-align: center;
 }
+
 h3 {
-    font-family: 'comic sans ms';
-    font-weight: 800;
-    font-size: 25px;
-    margin-bottom: 20px;
-    color: #364f6b;
-    width: 100%;
-    line-height: 50px;
-    text-align: center;
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #364f6b;
+  width: 100%;
+  line-height: 50px;
+  text-align: center;
 }
 a.tbl-hijau {
-    background: #02911a;
-    border-radius: 20px;
-    margin-top: 20px;
-    padding: 15px 20px 15px 20px;
-    color: #FFFFFF;
-    cursor: pointer;
-    font-weight: bold;
+  background: #02911a;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
 }
 a.tbl-hijau:hover {
-    background: #3f72af;
-    text-decoration: none;
-}
-img{
-    width: 900px;
-    height: 450px;
+  background: #3f72af;
+  text-decoration: none;
 }
 .lingkaran {
-    display: inline-block;
-    border-radius: 100%;
-    width: 170px;
-    height: 155px;
-    color: #2c2929;
-    background-color: #65ade7;
-  }
+  display: inline-block;
+  border-radius: 100%;
+  width: 170px;
+  height: 155px;
+  color: #2c2929;
+  background-color: #65ade7;
+}
 .lingkaran i {
-    position: relative;
-    top: 30px;
+  position: relative;
+  top: 30px;
+}
+.panjang {
+  display: inline-block;
+  border-radius: 5%;
+  width: 900px;
+  height: 250px;
+  color: #2c2929;
+  padding-top: 30px;
+  background-color: #65ade7;
+}
+@media (max-width: 768px) {
+  .panjang {
+    width: 450px;
   }
-.panjang{
-    display: inline-block;
-    border-radius: 5%;
-    width: 900px;
-    height: 250px;
-    color: #2c2929;
-    padding-top: 30px;
-    background-color: #65ade7;
 }
 body {
-	background: #fff;
-	font-family: "Roboto", sans-serif;
-}
-.main-content {
-	padding-bottom: 100px;
-    padding-right: 150px;
-}
-.flex-center {
-	align-items: center;
-}
-.accordion-button{
-	margin-bottom: 10px;
+  background: #fff;
+  font-family: "Roboto", sans-serif;
 }
 .accordion-body {
-	margin-top: 15px;
-	padding: 25px;
-	background: #fff;
-	border-radius: 5px;
-	box-shadow: 0 2px 25px -3px rgba(0, 0, 0, 0.1);
-	margin-bottom: 10px;
+  margin-top: 15px;
+  padding: 25px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 25px -3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
 }
 .circle-icon {
-	height: 50px;
-	width: 50px;
-	border-radius: 50px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background: #2b4eff;
-    border: 5px solid #b2bfff;
-	color: #fff;
-	margin-left: -20px;
-	margin-right: 10px;
-	transform: scale(1.2);
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2b4eff;
+  border: 5px solid #b2bfff;
+  color: #fff;
+  margin-left: -20px;
+  margin-right: 10px;
+  transform: scale(1.2);
 }
-.accordion-item{
-	border: 0px!important;
+.accordion-button:not(.collapsed) {
+  border: 0px !important;
+  color: #0c63e4;
+  background-color: #ffffff;
+  box-shadow: inset 0 0px 0 rgb(0 0 0 / 13%);
 }
-.accordion-button:not(.collapsed){
-	border: 0px!important;
-	color: #0c63e4;
-    background-color: #ffffff;
-    box-shadow: inset 0 0px 0 rgb(0 0 0 / 13%);
+.login {
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.1);
+  padding: 40px;
 }
-.scroll{
-    position: relative;
-    margin-left: 1320px;
-}
-.login{
-    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.1);
-    padding: 40px;
-}
-.carousel-inner{
-    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.1);
-    padding: 40px;
+.carousel-inner {
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.1);
+  padding: 40px;
 }
